@@ -10,11 +10,11 @@ function Flames() {
     if (!str1 || !str2) {
       setValue("Please Enter valid input");
     } else {
-      //   let arr1 = str1.toLowerCase().split("");
-      //   let arr2 = str2.toLowerCase().split("");
+        let arr1 = str1.split("");
+        let arr2 = str2.split("");
 
-      let arr1 = str1.toLowerCase().replace(/\s/g, "").split("");
-      let arr2 = str2.toLowerCase().replace(/\s/g, "").split("");
+    //   let arr1 = str1.toLowerCase().replace(/\s/g, "").split("");
+    //   let arr2 = str2.toLowerCase().replace(/\s/g, "").split("");
 
       for (let i = 0; i < arr1.length; i++) {
         for (let j = 0; j < arr2.length; j++) {
